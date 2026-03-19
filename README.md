@@ -22,6 +22,8 @@ To get **fused Patient Similarity Graph**, you can run the following command:
 ```
 ./run_snf_LATENT.sh
 ```
+To generate the patient similarity graph for the validation dataset, simply specify the dataset path using the `-test_p` argument.
+
 ### Step 3. Residual Graph Convolutional Network for Classification
 To **train, test**, and perform **validation** of the Residual GCN for CD and TOO, you can run the following command:
 ```
