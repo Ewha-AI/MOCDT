@@ -29,3 +29,8 @@ To **train, test**, and perform **validation** of the Residual GCN for CD and TO
 ```
 ./run_GCN_CDTOO.sh
 ```
+
+---
+
+This implementation is partially inspired by the MoGCN repository.  
+We thank the authors for making their code publicly available.
