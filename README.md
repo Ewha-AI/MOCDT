@@ -7,7 +7,7 @@ MOCDT is a cell-free DNA (cfDNA) multi-omics framework that follows a clinically
 
 ### Supervised Multi-modal Autoencoder
 ```
-./run_Contrastive_Supervised_Adversarial_AE.sh
+./run_AE.sh
 ```
 ### Latent Space Patient Similarity Network
 ```
