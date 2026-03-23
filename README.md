@@ -11,7 +11,7 @@ The `inference_data` folder includes five raw samples for each modality, which c
 The script supports three modes:
 - `mode 0`: AE training on the training dataset  
 - `mode 1`: Latent representation extraction on the test dataset  
-- `mode 2`: Latent representation extraction on the sample dataset
+- `mode 2`: Latent representation extraction on the inference dataset
 
 ```
 ./run_AE.sh
