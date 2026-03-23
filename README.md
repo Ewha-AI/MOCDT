@@ -11,7 +11,7 @@ The `sample_data` folder includes five raw samples for each modality, which can 
 The script supports three modes:
 - `mode 0`: AE training on the training dataset  
 - `mode 1`: Latent representation extraction on the test dataset  
-- `mode 2`: Latent representation extraction on the validation dataset
+- `mode 2`: Latent representation extraction on the sample dataset
 
 ```
 ./run_AE.sh
@@ -22,7 +22,7 @@ To get a fused patient similarity graph, you can run the following command:
 ```
 ./run_snf_LATENT.sh
 ```
-To generate the patient similarity graph for the validation dataset, simply specify the dataset path using the `-test_p` argument.
+To generate the patient similarity graph for the sample dataset, simply specify the dataset path using the `-val_p` argument.
 
 ### Step 3. Residual Graph Convolutional Network for Classification
 To **train, test**, and perform **validation** for CD and TOO, you can run the following command:
