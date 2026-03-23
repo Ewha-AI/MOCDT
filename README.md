@@ -25,8 +25,12 @@ To get a fused patient similarity graph, you can run the following command:
 To generate the patient similarity graph for the sample dataset, simply specify the dataset path using the `-val_p` argument.
 
 ### Step 3. Residual Graph Convolutional Network for Classification
-To **train, test**, and perform **validation** for CD and TOO, you can run the following command:
+To **train, test** for CD and TOO, you can run the following command:
 ```
 ./run_GCN_CDTOO.sh
+```
+To **inference** for CD and TOO, you can run the following command:
+```
+./run_GCN_infernce.sh
 ```
 
