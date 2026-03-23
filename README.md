@@ -18,7 +18,7 @@ The script supports three modes:
 ```
 
 ### Step 2. Latent Space Patient Similarity Network
-To get fused Patient Similarity Graph, you can run the following command:
+To get a fused patient similarity graph, you can run the following command:
 ```
 ./run_snf_LATENT.sh
 ```
