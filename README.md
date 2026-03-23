@@ -31,6 +31,6 @@ To **train, test** for CD and TOO, you can run the following command:
 ```
 To **inference** for CD and TOO, you can run the following command:
 ```
-./run_GCN_infernce.sh
+./run_GCN_inference.sh
 ```
 
