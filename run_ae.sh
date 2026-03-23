@@ -51,9 +51,9 @@ python AE_run.py \
 
 # mode 2 uses only extp inputs
 python AE_run.py \
-  -extp1 ./sample_data/met/Validation_Samples.csv \
-  -extp2 ./sample_data/fsr/Validation_Samples.csv \
-  -extp3 ./sample_data/cnv/Validation_Samples.csv \
+  -extp1 ./inference_data/met/Inference_Samples.csv \
+  -extp2 ./inference_data/fsr/Inference_Samples.csv \
+  -extp3 ./inference_data/cnv/Inference_Samples.csv \
   -e 100 \
   -l 750 \
   -m 2 \
